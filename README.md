@@ -4,13 +4,13 @@ Este repositorio contiene el microservicio de **Servidor de Configuración (Conf
 
 ---
 
-## 📝 Descripción
+## Descripción
 
 Servidor centralizado de configuración distribuida para todo el ecosistema. Utiliza Spring Cloud Config para leer y servir propiedades desde el repositorio local 'config-data' de forma dinámica sin necesidad de recompilar los servicios.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Tech Stack
 
 *   **Lenguaje de Programación:** Java 17
 *   **Framework Principal:** Spring Boot 3
@@ -20,7 +20,7 @@ Servidor centralizado de configuración distribuida para todo el ecosistema. Uti
 
 ---
 
-## 🚀 Guía de Ejecución Independiente
+## Guía de Ejecución
 
 Si desea arrancar este microservicio por separado para depuración o pruebas locales, siga estas instrucciones:
 
@@ -37,7 +37,7 @@ mvn spring-boot:run
 
 ---
 
-## 📖 Documentación del Servicio
+## Documentación del Servicio
 
 Este componente es un servicio interno de infraestructura (no expone APIs directas de negocio al cliente final). Su estado y métricas de salud pueden monitorearse a través de:
 *   **Eureka Registry:** `http://localhost:8761`
